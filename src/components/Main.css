@@ -1,0 +1,16 @@
+.main{
+   
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+ gap:0.5vw;
+   overflow-y: scroll;
+   justify-content: center;
+}
+@media (max-width: 1000px) {
+   .main{
+      margin-top: 50px;
+      
+   }
+}

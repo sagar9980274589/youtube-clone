@@ -1,0 +1,166 @@
+.playvideo{
+    display: flex;
+    width:100vw;
+
+justify-content: space-around;
+}
+.mainvideo{
+width:60%;
+height:calc(100vh - 6.5vw);
+
+margin-left: 30px;
+overflow-y: scroll;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.mainvideo iframe{
+    border-radius: 15px;
+    width: 95%;
+    height: 480px;
+    margin: auto;
+}
+.playvideo .recommend{
+    width:30%;
+    height:calc(100vh - 6.5vw);
+    display: flex;
+    flex-direction: column;
+    gap:1vw;
+    margin-top: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.mainvideo .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.videostats{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statsics{
+    display: flex;
+    gap:1vw;
+    align-items: center;
+}
+.videotitle{
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.helo{
+    display: flex;
+    gap:0.8vw;
+}
+.videosec{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+ hr{
+
+width: 90%;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 8px;
+}
+.commentssec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.commentssec .heading{
+    font-size: 1.2em;   
+     margin-left: 20px;
+    font-weight:500;
+}
+.videostats{
+    width:90%;
+}
+.mainvideo::-webkit-scrollbar{
+    display: none;
+}
+.videotitle{
+    align-self: flex-start;
+    margin-top: 12px;
+    margin-left: 18px;
+}
+.videodescription{
+    width:90%;
+    margin: auto;
+    border-radius: 12px;
+    background-color: rgb(239, 239, 239);
+    padding: 2.5vw;
+    margin-top: 15px;
+}
+.usrcmt{
+    width:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+ 
+}
+.wrapper{
+    display: flex;
+    gap: 0.5vw;
+   
+}
+.cmnt{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   
+    gap:0.5vw;
+}
+.usrimg{
+   
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   
+}
+.usrimg img{
+    clip-path: circle();
+}
+.authortitle{
+    width:100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 1000px) {
+    .playvideo{
+        flex-direction: column;
+        gap: 10vw;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .mainvideo{
+        width:90%;
+        margin-top: 35px;
+    }
+    .mainvideo iframe{
+height: auto;
+    }
+    .usrcmt{
+        width:90%;
+    }
+   .videodescription{
+    width:90%;
+    margin: auto;
+   
+   }
+  .playvideo .recommend{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:3vw;
+   }
+}

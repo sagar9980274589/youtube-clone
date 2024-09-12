@@ -1,0 +1,25 @@
+
+.app{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:1vw;
+}
+.card{
+    width:300px;
+}
+.content{
+    display: flex;
+}
